@@ -1,0 +1,36 @@
+.plans {
+  margin: 1.5rem 0;
+  color: #fff;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.8;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.plan:hover {
+  opacity: 1;
+}
+
+.plan_disabled .btn {
+  background-color: grey;
+}
+
+.text {
+  color: #fff;
+  margin-top: 1.5rem;
+}
