@@ -33,7 +33,7 @@ const Login = () => {
     auth
       .signInWithEmailAndPassword(email, password)
       .then((user) => {
-        navigate("/profile", { replace: true });
+        navigate("/", { replace: true });
       })
       .catch((err) => alert(err.message));
   };
