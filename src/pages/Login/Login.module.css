@@ -144,6 +144,23 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 435px) {
+  .login_form {
+    display: grid;
+    gap: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .login_form button,
+  .login_form input {
+    width: 250px;
+  }
+
+  .signIn form {
+    padding: 2rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .signIn form {
     width: 90%;
